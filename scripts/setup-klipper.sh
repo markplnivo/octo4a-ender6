@@ -22,7 +22,7 @@ curl -o klipper.zip -L https://github.com/Desuuuu/klipper/archive/refs/heads/mas
 echo -e "${COL}Extracting klipper\n${NC}"
 unzip klipper.zip
 rm -rf klipper.zip
-mv klipper-master /klipper
+mv klipper-dgus-reloaded /klipper
 echo "# replace with your config" >> /root/printer.cfg
 
 mkdir -p /root/extensions/klipper
