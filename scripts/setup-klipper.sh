@@ -17,7 +17,7 @@ apk add py3-cffi py3-greenlet linux-headers can-utils
 pip3 install python-can
 
 echo -e "${COL}Downloading klipper\n${NC}"
-curl -o klipper.zip -L https://github.com/Klipper3d/klipper/archive/refs/heads/master.zip
+curl -o klipper.zip -L https://github.com/Desuuuu/klipper/archive/refs/heads/master.zip
 
 echo -e "${COL}Extracting klipper\n${NC}"
 unzip klipper.zip
